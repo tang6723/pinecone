@@ -19,7 +19,16 @@ import {PeripheryPage} from "../pages/periphery/periphery";
     TabsPage
   ],
   imports: [
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp, {
+        backButtonText: '返回',
+        iconMode: 'ios',
+        mode: 'ios',
+        modalEnter: 'modal-slide-in',
+        modalLeave: 'modal-slide-out',
+        tabsPlacement: 'bottom',
+        pageTransition: 'ios'
+      }, {}
+    )
   ],
   bootstrap: [IonicApp],
   entryComponents: [
