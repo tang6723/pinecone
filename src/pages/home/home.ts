@@ -54,6 +54,7 @@ export class HomePage {
       'Uelzen',
       'Washington'
     ];
+
   }
   getItems(ev: any) {
     // Reset items back to all of the items
