@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import {CartPage} from "../pages/cart/cart";
 import {PeripheryPage} from "../pages/periphery/periphery";
+import {PersonalPage} from "../pages/personal/personal";
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import {PeripheryPage} from "../pages/periphery/periphery";
     HomePage,
     CartPage,
     PeripheryPage,
+    PersonalPage,
     TabsPage
   ],
   imports: [
@@ -38,6 +40,7 @@ import {PeripheryPage} from "../pages/periphery/periphery";
     HomePage,
     CartPage,
     PeripheryPage,
+    PersonalPage,
     TabsPage
   ],
   providers: []
